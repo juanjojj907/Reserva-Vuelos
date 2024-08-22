@@ -2,6 +2,9 @@
 
 Este es un sistema básico de reservas de vuelos desarrollado con Node.js, Express, React y PostgreSQL. La aplicación permite realizar CRUD (Crear, Leer, Actualizar y Eliminar) operaciones sobre vuelos y reservas de vuelos.
 
+![image](https://github.com/user-attachments/assets/159a288b-99bc-4d03-a64d-874171eece36)
+
+
 ## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
