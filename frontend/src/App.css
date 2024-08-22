@@ -1,0 +1,75 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh; /* Cambiado de height a min-height */
+  background-image: url('/public/Avion.png'); /* Ajusta la ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.6); /* Añade un fondo semitransparente al header */
+  padding: 20px;
+  font-size: 2.5em; /* Tamaño del título */
+  font-weight: bold;
+  z-index: 1;
+  position: relative; /* Asegura que el encabezado esté por encima del fondo */
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente para el contenido */
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto; /* Añadido margen superior */
+  z-index: 1;
+  position: relative; /* Asegura que el contenido principal esté por encima del fondo */
+}
+
+button {
+  background-color: #007bff;
+  color: rgb(14, 13, 13);
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 4em;
+  color: #ffffff; /* Cambia el color del título si es necesario */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.ReservarButton {
+  background-color: #28a745;
+  color: White;
+}
+
+.ReservarButton:hover {
+  background-color: #218838;
+}
