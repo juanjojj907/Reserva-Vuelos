@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 3001
 
 # Comando para ejecutar la API
-CMD ["npm", "start"]
+CMD ["node", "server.js"]

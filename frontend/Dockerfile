@@ -23,4 +23,4 @@ RUN npm install -g serve
 EXPOSE 3000
 
 # Comando para ejecutar la aplicación en modo de producción
-CMD ["serve", "-s", "build"]
+CMD ["npm", "start"]
