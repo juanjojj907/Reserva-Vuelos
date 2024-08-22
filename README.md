@@ -6,6 +6,10 @@ Este es un sistema básico de reservas de vuelos desarrollado con Node.js, Expre
 
 
 
+https://github.com/user-attachments/assets/0eb7f1bc-9302-444c-a0b2-d67af2060f5c
+
+
+
 ## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
